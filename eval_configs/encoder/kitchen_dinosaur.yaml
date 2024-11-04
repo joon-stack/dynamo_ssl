@@ -1,0 +1,11 @@
+_target_: models.encoder.dinosaur.DINOSAURpp
+slot_dim : 256
+num_slots : 7
+token_num : 256
+feature_dim : 768
+ISA : False
+ckp_path : "/home/work/robo_team/checkpoints/dinosaur/2024-11-02_18-38-47/checkpoint_epoch_99.pt"
+query_opt: False
+slot_att_iter: 3
+resize_to: [224, 224]
+encoder: "dinov2-vitb-14"
